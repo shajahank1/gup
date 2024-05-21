@@ -5,7 +5,7 @@
 - POST
 
 ### Endpoint
- ``` http://10.99.10.55:8066/nehrapi/gup/v2/getAppInstitutes ```
+ ``` {BASEURL}/v2/getAppInstitutes ```
 
 ### Headers
 - Authorization: Bearer d0816a77-af67-43fc-bad1-2edb2aae3dc5 - The Bearer token required for authentication.
