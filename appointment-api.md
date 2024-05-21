@@ -53,18 +53,18 @@
 - code (integer): Status code of the operation.
 - message (string): Description regarding the result.
 - result (array): Array of institutes linked to the patient.
-    - mpiId (integer): MPI ID of the institute.
-    - estCode (string): Establishment code.
-    - fhirPatientId (string): FHIR patient ID.
--- estPatientId (integer): Establishment's patient ID.
--- activeYn (string): Indicates if the record is active ('Y' for yes).
--- estName (string): Full name of the establishment.
--- estShortName (string): Short name of the establishment.
--- fhirEnabledYn (string): Indicates if FHIR is enabled ('N' for no).
--- estTypeCode (integer): Establishment type code.
--- estNameNls (string): Localized name of the establishment.
--- newAppYn (string): Indicates if new appointments are available ('Y' for yes).
--- reschAppYn (string): Indicates if rescheduling is available ('Y' for yes).
+  - mpiId (integer): MPI ID of the institute.
+  - estCode (string): Establishment code.
+  - fhirPatientId (string): FHIR patient ID.
+  - estPatientId (integer): Establishment's patient ID.
+  - activeYn (string): Indicates if the record is active ('Y' for yes).
+  - estName (string): Full name of the establishment.
+  - estShortName (string): Short name of the establishment.
+  - fhirEnabledYn (string): Indicates if FHIR is enabled ('N' for no).
+  - estTypeCode (integer): Establishment type code.
+  - estNameNls (string): Localized name of the establishment.
+  - newAppYn (string): Indicates if new appointments are available ('Y' for yes).
+  - reschAppYn (string): Indicates if rescheduling is available ('Y' for yes).
 ### Error Responses
 - HTTP Status Code: 401 (Unauthorized)
 
